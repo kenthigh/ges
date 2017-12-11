@@ -11,73 +11,114 @@ body {
   background-color: #000;
 }
 body #btn1 {
+  position: relative;
   display: inline-block;
   width: 70px;
   height: 70px;
   border-radius: 99px;
   background: #333;
   cursor: pointer;
+  transition: all 0.3s;
   margin: 40px auto 40px auto;
-  box-shadow: inset -1px 1px 9px 1px #1f1f1f, inset 1px -1px 4px 2px #6d6d6d, 0 0 20px 0 #fff;
+  box-shadow: inset -1px 1px 9px 1px #1f1f1f, inset 1px -1px 4px 2px #6d6d6d, 0 0 20px 0 #47686f;
   animation: normal-move 6s infinite;
   animation-direction: alternate;
 }
 body #btn1:hover {
-  background: #000;
+  animation: hover-move 1s infinite;
+  animation-direction: alternate;
+}
+body #btn1 img.trai {
+  width: 20px;
+  position: absolute;
+  top: 23px;
+  left: 28px;
 }
 @-moz-keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #47686f;
   }
   50% {
-    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #3d9eb3;
   }
   75% {
-    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00caa9;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #01b8e0;
   }
   100% {
-    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #126a7d;
   }
 }
 @-webkit-keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #47686f;
   }
   50% {
-    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #3d9eb3;
   }
   75% {
-    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00caa9;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #01b8e0;
   }
   100% {
-    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #126a7d;
   }
 }
 @-o-keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #47686f;
   }
   50% {
-    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #3d9eb3;
   }
   75% {
-    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00caa9;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #01b8e0;
   }
   100% {
-    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #126a7d;
   }
 }
 @keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #47686f;
   }
   50% {
-    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #3d9eb3;
   }
   75% {
-    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00caa9;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #01b8e0;
   }
   100% {
-    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #126a7d;
+  }
+}
+@-moz-keyframes hover-move {
+  50% {
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 50px 0 #3d9eb3;
+  }
+  100% {
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #126a7d;
+  }
+}
+@-webkit-keyframes hover-move {
+  50% {
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 50px 0 #3d9eb3;
+  }
+  100% {
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #126a7d;
+  }
+}
+@-o-keyframes hover-move {
+  50% {
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 50px 0 #3d9eb3;
+  }
+  100% {
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #126a7d;
+  }
+}
+@keyframes hover-move {
+  50% {
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 50px 0 #3d9eb3;
+  }
+  100% {
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #126a7d;
   }
 }

@@ -11,24 +11,38 @@ body
   text-align: center
   background-color: black
   #btn1
+    position: relative
     display: inline-block
     width: 70px
     height: 70px
     border-radius: 99px
     background: #333333
     cursor: pointer
+    transition: all 0.3s
     margin: 40px auto 40px auto
-    box-shadow: inset  -1px 1px 9px 1px #1f1f1f, inset 1px -1px 4px 2px #6d6d6d, 0 0 20px 0 #ffffff
+    box-shadow: inset  -1px 1px 9px 1px #1f1f1f, inset 1px -1px 4px 2px #6d6d6d, 0 0 20px 0 #47686f
     animation: normal-move 6s infinite
     animation-direction: alternate
     &:hover
-      background: black
+      animation: hover-move 1s infinite
+      animation-direction: alternate
+    img.trai
+      width: 20px
+      position: absolute
+      top: 23px
+      left: 28px
 @keyframes normal-move
   25%
-    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00d2b0
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #47686f
   50%
-    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #3d9eb3
   75%
-    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00caa9
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #01b8e0
   100%
-    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75 
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #126a7d
+
+@keyframes hover-move
+  50%
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 50px 0 #3d9eb3
+  100%
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #126a7d 
