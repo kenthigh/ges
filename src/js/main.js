@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    console.log('Jquery ready!!!')
-    for(var i = 0; i < 100; i++){
-        console.log(i)
-    }
+  $('#btn1').click(function() {
+      console.log('sd')
+    //   $('#audio1')[0].play()
+  })   
 })

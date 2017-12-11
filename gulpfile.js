@@ -14,7 +14,7 @@ gulp.task('default', function () {
   // gulp.run('uglifyjs','jade','img','stylus');  
   runSequence(
     'clean', 
-    ['uglifyjs', 'jade', 'img', 'stylus'],
+    ['uglifyjs', 'jade', 'img', 'stylus', 'audio'],
     'watch'
   )
 })
@@ -25,6 +25,7 @@ gulp.task('watch', function () {
   gulp.watch('src/page/*.jade', ['jade'])
   gulp.watch('src/img/*', ['img'])
   gulp.watch('src/style/*.styl', ['stylus'])
+  gulp.watch('src/audio/*', ['audio'])
 })
 
 gulp.task('uglifyjs', function () {
@@ -55,6 +56,11 @@ gulp.task('img', function () {
   gulp.src(['src/img/*', 'src/img/**/*'])
   .pipe(imagemin())
   .pipe(gulp.dest('dist/img'))
+})
+
+gulp.task('audio', function () {
+  gulp.src(['src/audio/*', 'src/audio/**/*'])
+  .pipe(gulp.dest('dist/audio'))
 })
 
 gulp.task('stylus', function () {

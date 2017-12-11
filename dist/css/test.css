@@ -1,0 +1,41 @@
+.box {
+  border: solid 1px #000;
+  box-sizing: content-box;
+  margin: 100px auto;
+  width: 1000px;
+  height: 300px;
+  perspective: 1000px;
+  -webkit-perspective-origin-x: 481px;
+  animation: ani 5s infinite;
+  animation-direction: alternate;
+}
+.child {
+  box-sizing: content-box;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #87d30a;
+/* 重点看这里 */
+  transform: rotateY(90deg);
+}
+@-moz-keyframes ani {
+  to {
+    perspective: 100px;
+  }
+}
+@-webkit-keyframes ani {
+  to {
+    perspective: 100px;
+  }
+}
+@-o-keyframes ani {
+  to {
+    perspective: 100px;
+  }
+}
+@keyframes ani {
+  to {
+    perspective: 100px;
+  }
+}

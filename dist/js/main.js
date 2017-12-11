@@ -1,2 +1,2 @@
-$(document).ready(function(){console.log("Jquery ready!!!");for(var o=0;o<100;o++)console.log(o)});
+$(document).ready(function(){$("#btn1").click(function(){console.log("sd")})});
 //# sourceMappingURL=map/main.js.map
