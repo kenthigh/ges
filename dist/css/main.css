@@ -18,7 +18,7 @@ body #btn1 {
   background: #333;
   cursor: pointer;
   margin: 40px auto 40px auto;
-  box-shadow: inset -1px 1px 9px 1px #444, inset 1px -1px 4px 2px #222, 0 0 20px 0 #fff;
+  box-shadow: inset -1px 1px 9px 1px #1f1f1f, inset 1px -1px 4px 2px #6d6d6d, 0 0 20px 0 #fff;
   animation: normal-move 6s infinite;
   animation-direction: alternate;
 }
@@ -27,57 +27,57 @@ body #btn1:hover {
 }
 @-moz-keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00d2b0;
   }
   50% {
-    box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
   }
   75% {
-    box-shadow: inset -1px 1px 3px 2px #222, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00caa9;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00caa9;
   }
   100% {
-    box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
   }
 }
 @-webkit-keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00d2b0;
   }
   50% {
-    box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
   }
   75% {
-    box-shadow: inset -1px 1px 3px 2px #222, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00caa9;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00caa9;
   }
   100% {
-    box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
   }
 }
 @-o-keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00d2b0;
   }
   50% {
-    box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
   }
   75% {
-    box-shadow: inset -1px 1px 3px 2px #222, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00caa9;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00caa9;
   }
   100% {
-    box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
   }
 }
 @keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00d2b0;
   }
   50% {
-    box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
   }
   75% {
-    box-shadow: inset -1px 1px 3px 2px #222, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00caa9;
+    box-shadow: inset -1px 1px 3px 2px #1f1f1f, inset 1px -1px 3px 1px #6d6d6d, 0 0 20px 0 #00caa9;
   }
   100% {
-    box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
+    box-shadow: inset -1px 1px 3px 1px #6d6d6d, inset 1px -1px 3px 2px #1f1f1f, 0 0 20px 0 #008c75;
   }
 }
