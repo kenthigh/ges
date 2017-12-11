@@ -27,7 +27,7 @@ body #btn1:hover {
 }
 @-moz-keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 60px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00d2b0;
   }
   50% {
     box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
@@ -41,7 +41,7 @@ body #btn1:hover {
 }
 @-webkit-keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 60px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00d2b0;
   }
   50% {
     box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
@@ -55,7 +55,7 @@ body #btn1:hover {
 }
 @-o-keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 60px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00d2b0;
   }
   50% {
     box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
@@ -69,7 +69,7 @@ body #btn1:hover {
 }
 @keyframes normal-move {
   25% {
-    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 60px 0 #00d2b0;
+    box-shadow: inset -1px 1px 3px 2px #444, inset 1px -1px 3px 1px #ccc, 0 0 20px 0 #00d2b0;
   }
   50% {
     box-shadow: inset -1px 1px 3px 1px #ccc, inset 1px -1px 3px 2px #222, 0 0 20px 0 #90cec4;
